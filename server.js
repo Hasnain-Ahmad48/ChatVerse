@@ -97,7 +97,7 @@ httpServer.listen(PORT, () => {
   if (cloudName && apiKey && apiSecret) {
     console.log("✓ Cloudinary configured");
   } else {
-    console.warn("⚠ Cloudinary not configured. Image uploads will fail.");
+    console.warn("Cloudinary not configured. Image uploads will fail.");
     console.warn("  Missing:", {
       CLOUDINARY_CLOUD_NAME: !cloudName,
       CLOUDINARY_API_KEY: !apiKey,
