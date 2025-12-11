@@ -49,7 +49,7 @@ initializeSocket(io);
 app.use(helmet());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://charming-jelly-1e16c6.netlify.app/",
     credentials: true,
   })
 );
